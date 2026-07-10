@@ -30,6 +30,10 @@ Route::get('/community-news', function () {
     return Inertia::render('CommunityNews');
 })->middleware(['auth', 'verified'])->name('community-news');
 
+Route::get('/settings', function () {
+    return Inertia::render('Settings');
+})->middleware(['auth', 'verified'])->name('settings');
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

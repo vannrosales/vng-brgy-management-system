@@ -69,7 +69,7 @@ export default function Footer() {
             {/* Bottom Row with copyright and Emergency Hotline Button matching image_f0ae19.png */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-6 border-t border-blue-900/60 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-blue-200/60">
                 <p>&copy; 2026 V&G Smart Barangay System. All Rights Reserved. Digital Services for a Better Community.</p>
-                <button className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 transition-colors text-white font-bold px-4 py-2.5 rounded-xl shadow-md text-xs shrink-0">
+                <button className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 transition-colors text-white font-bold px-4 py-2.5 shadow-md text-xs shrink-0">
                     <PhoneIcon className="w-4 h-4 text-white" /> Emergency Hotline
                 </button>
             </div>
