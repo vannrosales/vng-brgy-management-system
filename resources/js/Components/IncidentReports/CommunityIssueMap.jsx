@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Map, Marker } from 'pigeon-maps';
 
 export default function CommunityIssueMap() {
-    // Default default view centered nicely over V&G Subdivisions with a wider neighborhood zoom level (13 or 14)
+    
     const defaultCenter = [11.2032, 124.9976];
     const defaultZoom = 15.5;
 
@@ -15,9 +15,9 @@ export default function CommunityIssueMap() {
     };
 
     return (
-        <div className="bg-white border border-gray-200/80 rounded-lg p-6 shadow-xs flex flex-col justify-between h-full">
+        <div className="bg-white border border-gray-200/80 p-6 shadow-xs flex flex-col justify-between h-full">
             <div className="flex justify-between items-center mb-4">
-                <h2 className="text-lg font-bold text-gray-900">Community Issue Map</h2>
+                <h2 className="text-lg font-semi-bold text-gray-900">Community Issue Map</h2>
                 <div className="flex items-center gap-2 text-xs font-semibold text-gray-600">
                     <span className="text-[11px] text-gray-500 bg-gray-100 px-2 py-1 rounded">
                         Selected: {markerCoord[0].toFixed(4)}, {markerCoord[1].toFixed(4)}

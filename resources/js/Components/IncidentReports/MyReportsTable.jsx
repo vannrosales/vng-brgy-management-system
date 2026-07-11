@@ -8,14 +8,14 @@ export default function MyReportsTable() {
     ];
 
     return (
-        <div className="bg-white border border-gray-200/80 rounded-lg shadow-xs overflow-hidden">
+        <div className="bg-white border border-gray-300/80 rounded-lg shadow-xs overflow-hidden">
             <div className="p-6 pb-4">
-                <h2 className="text-lg font-bold text-gray-900">History of My Reports</h2>
+                <h2 className="text-lg font-semi-bold text-gray-900">History of My Reports</h2>
             </div>
             <div className="overflow-x-auto">
                 <table className="w-full text-left border-collapse">
                     <thead>
-                        <tr className="bg-[#041933] text-white text-[11px] font-semibold uppercase tracking-wider">
+                        <tr className="text-[#1B385D] text-[11px] font-semibold uppercase tracking-wider border-solid border-b border-blue-900">
                             <th className="py-3 px-6">Incident Type</th>
                             <th className="py-3 px-6">Location</th>
                             <th className="py-3 px-6">Date Filed</th>

@@ -30,16 +30,16 @@ export default function RecentReportsSidebar() {
 
     return (
         <div className="bg-white border border-gray-200/80 rounded-xl p-5 shadow-xs space-y-4">
-            <h2 className="text-base font-bold text-gray-900 tracking-tight">Recent Reports</h2>
+            <h2 className="text-base font-semi-bold text-gray-900 tracking-tight">Recent Reports</h2>
             <div className="space-y-3">
                 {reports.map((rep, idx) => (
-                    <div key={idx} className="p-3.5 bg-white border border-gray-200/80 rounded-lg shadow-2xs space-y-1.5 hover:border-gray-300 transition-all">
+                    <div key={idx} className="p-3.5 bg-white border border-gray-200/80 rounded-md shadow-2xs space-y-1.5 hover:border-sky-800 transition-all">
                         <div className="flex justify-between items-center text-[10px]">
-                            <span className={`font-bold px-2.5 py-0.5 rounded-full tracking-wider ${rep.badge}`}>{rep.status}</span>
+                            <span className={`font-semi-bold px-2.5 py-0.5 rounded-full tracking-wider ${rep.badge}`}>{rep.status}</span>
                             <span className="text-gray-400 font-normal text-[11px]">{rep.time}</span>
                         </div>
                         <div>
-                            <h3 className="font-bold text-[13px] text-gray-900 leading-snug">{rep.title}</h3>
+                            <h3 className="font-semi-bold text-[13px] text-gray-900 leading-snug">{rep.title}</h3>
                             <p className="text-[11px] text-gray-500 font-normal truncate mt-0.5">{rep.desc}</p>
                         </div>
                         {rep.metaText && (

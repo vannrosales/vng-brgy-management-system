@@ -16,13 +16,9 @@ export default function AuthenticatedLayout({ header, children }) {
                 {/* Top Header */}
                 <header className="bg-white border-b border-gray-200 h-20 px-4 sm:px-8 flex items-center justify-between sticky top-0 md:top-0 z-30 shadow-2xs">
                     <div className="flex-1 truncate pr-4">
-                        {header ? (
-                            header
-                        ) : (
-                            <h2 className="text-lg sm:text-xl font-bold leading-tight text-[#1B385D] truncate">
-                                V&G Smart Barangay
-                            </h2>
-                        )}
+                        <h2 className="text-lg sm:text-xl font-bold leading-tight text-[#1B385D] truncate">
+                            V&G Smart Barangay
+                        </h2>  
                     </div>
 
                     <div className="flex items-center gap-3 sm:gap-4 shrink-0">
