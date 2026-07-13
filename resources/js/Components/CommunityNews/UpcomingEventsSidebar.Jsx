@@ -18,7 +18,7 @@ export default function UpcomingEventsSidebar() {
     ];
 
     return (
-        <div className="bg-white border border-gray-200/80 rounded-xl p-5 shadow-2xs space-y-4 h-full flex flex-col justify-between">
+        <div className="bg-white border border-gray-200/80 p-5 shadow-2xs space-y-4 h-full flex flex-col justify-between">
             <div className="space-y-4">
                 <div className="flex items-center gap-2 text-gray-900 font-bold text-sm tracking-tight border-b border-gray-100 pb-3">
                     <CalendarIcon className="w-5 h-5 text-[#041933]" /> Upcoming Events
@@ -43,7 +43,7 @@ export default function UpcomingEventsSidebar() {
                     ))}
                 </div>
             </div>
-            <button className="w-full py-2.5 border border-gray-200 text-[#041933] font-bold rounded-lg text-xs hover:bg-gray-50 transition-colors shadow-2xs">
+            <button className="w-full py-2.5 border border-gray-200 text-[#041933] font-bold text-xs hover:bg-gray-50 transition-colors shadow-2xs">
                 View Full Calendar
             </button>
         </div>

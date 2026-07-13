@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function NewsCard({ image, category, categoryColor, date, title, excerpt }) {
     return (
-        <div className="bg-white border border-gray-200/80 rounded-xl overflow-hidden shadow-2xs hover:border-gray-300 transition-all flex flex-col justify-between">
+        <div className="bg-white border border-gray-200/80 overflow-hidden shadow-2xs hover:border-gray-300 transition-all flex flex-col justify-between">
             <div>
                 <div className="h-44 bg-gray-100 overflow-hidden">
                     <img src={image} alt={title} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
