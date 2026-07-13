@@ -5,7 +5,7 @@ import { HeartIcon , BellAlertIcon, SunIcon} from "@heroicons/react/24/outline";
 export default function BarangayStatus() {
     return (
         <div className="bg-white border rounded-md border-gray-200 p-6 shadow-sm space-y-4">
-            <h2 className="text-md font-semi-bold text-gray-900">Barangay Status</h2>
+            <h2 className="text-md font-semibold text-[#1B385D] ">Barangay Status</h2>
             <div className="flex items-center justify-between p-3 bg-gray-100 rounded-md">
                 <div>
                     <p className="text-xs text-gray-500">

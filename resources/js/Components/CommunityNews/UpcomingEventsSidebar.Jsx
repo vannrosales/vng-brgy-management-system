@@ -20,18 +20,18 @@ export default function UpcomingEventsSidebar() {
     return (
         <div className="bg-white border border-gray-200/80 p-5 shadow-2xs space-y-4 h-full flex flex-col justify-between">
             <div className="space-y-4">
-                <div className="flex items-center gap-2 text-gray-900 font-bold text-sm tracking-tight border-b border-gray-100 pb-3">
+                <div className="flex items-center gap-2 text-gray-900 font-semibold text-sm tracking-tight border-b border-gray-100 pb-3">
                     <CalendarIcon className="w-5 h-5 text-[#041933]" /> Upcoming Events
                 </div>
                 <div className="space-y-3.5">
                     {events.map((ev, idx) => (
                         <div key={idx} className="flex items-start gap-3 pb-3 border-b border-gray-100 last:border-0 last:pb-0">
-                            <div className={`w-10 h-11 rounded-lg flex flex-col items-center justify-center font-extrabold text-[10px] leading-tight shrink-0 ${ev.color}`}>
+                            <div className={`w-10 h-11 rounded-lg flex flex-col items-center justify-center font-semibold text-[10px] leading-tight shrink-0 ${ev.color}`}>
                                 <span className="tracking-widest">{ev.month}</span>
                                 <span className="text-sm font-black">{ev.day}</span>
                             </div>
                             <div className="space-y-0.5 text-xs">
-                                <h4 className="font-bold text-gray-900 leading-tight">{ev.title}</h4>
+                                <h4 className="font-semibold text-gray-900 leading-tight">{ev.title}</h4>
                                 <p className="text-[11px] text-gray-400 flex items-center gap-1 font-medium">
                                     <ClockIcon className="w-3 h-3" /> {ev.time}
                                 </p>

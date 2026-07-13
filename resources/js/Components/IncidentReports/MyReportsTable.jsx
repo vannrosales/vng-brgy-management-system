@@ -10,7 +10,7 @@ export default function MyReportsTable() {
     return (
         <div className="bg-white border border-gray-300/80 rounded-lg shadow-xs overflow-hidden">
             <div className="p-6 pb-4">
-                <h2 className="text-lg font-semi-bold text-gray-900">History of My Reports</h2>
+                <h2 className="text-lg font-semibold text-[#1B385D]">History of My Reports</h2>
             </div>
             <div className="overflow-x-auto">
                 <table className="w-full text-left border-collapse">

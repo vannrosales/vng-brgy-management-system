@@ -34,7 +34,7 @@ export default function CommunityNews({ auth }) {
                         {/* Top Header & Search Bar matching image_efe05d.jpg */}
                         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
                             <div>
-                                <h2 className="text-xl font-extrabold text-[#041933] tracking-tight">Community News and Announcements Hub</h2>
+                                <h2 className="text-xl font-semibold text-[#041933] tracking-tight">Community News and Announcements Hub</h2>
                                 <p className="text-xs text-gray-400 font-medium">Stay updated with the latest news and announcements from your community</p>
                             </div>
                             <div className="relative w-full sm:w-72">
@@ -52,7 +52,7 @@ export default function CommunityNews({ auth }) {
 
                         {/* Section Header & Filter Pills */}
                         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 pt-2">
-                            <h3 className="text-base font-bold text-gray-900">Latest Updates</h3>
+                            <h3 className="text-base font-semibold text-[#1B385D] ">Latest Updates</h3>
                             <div className="flex items-center gap-1.5 text-xs font-semibold">
                                 {filters.map((fil) => (
                                     <button

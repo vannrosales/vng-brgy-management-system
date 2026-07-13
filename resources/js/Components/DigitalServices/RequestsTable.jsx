@@ -32,7 +32,7 @@ export default function RequestsTable() {
     return (
         <div className="bg-white shadow-xs overflow-hidden">
             <div className="p-6 pb-4 flex justify-between items-center">
-                <h2 className="text-lg font-bold text-gray-900">My Requests</h2>
+                <h2 className="text-lg font-semibold text-[#1B385D] ">My Requests</h2>
                 <span className="text-xs font-semibold text-[#041933] cursor-pointer hover:underline flex items-center gap-1">
                     View All History &rarr;
                 </span>
@@ -55,7 +55,7 @@ export default function RequestsTable() {
                                 <td className="py-4 px-6 text-gray-700">{req.type}</td>
                                 <td className="py-4 px-6 text-gray-500">{req.date}</td>
                                 <td className="py-4 px-6">
-                                    <span className={`text-[10px] font-bold px-2.5 py-1 rounded-full inline-block tracking-wide ${req.badge}`}>
+                                    <span className={`text-[10px] font-semibold px-2.5 py-1 rounded-full inline-block tracking-wide ${req.badge}`}>
                                         {req.status}
                                     </span>
                                 </td>

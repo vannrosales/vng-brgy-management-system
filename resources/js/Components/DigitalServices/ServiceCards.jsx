@@ -34,7 +34,7 @@ export default function ServiceCards() {
                         <div className={`w-10 h-10 flex items-center justify-center text-lg mb-4 ${svc.bgIcon}`}>
                             {svc.icon}
                         </div>
-                        <h3 className="font-bold text-lg text-[#1B385D] mb-2 leading-snug">{svc.title}</h3>
+                        <h3 className="font-semibold text-lg text-[#1B385D] mb-2 leading-snug">{svc.title}</h3>
                         <p className="text-xs text-gray-600 leading-relaxed mb-6">{svc.desc}</p>
                     </div>
                     <button className="w-full bg-[#041933] text-white font-medium py-2.5 text-xs hover:bg-blue-950 transition-colors shadow-xs">

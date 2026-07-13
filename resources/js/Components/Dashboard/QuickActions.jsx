@@ -10,7 +10,7 @@ export default function QuickActions() {
 
     return (
         <div>
-            <h2 className="text-lg font-bold text-gray-900 mb-4">Quick Actions</h2>
+            <h2 className="text-lg font-semibold text-[#1B385D] mb-4">Quick Actions</h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 {actions.map((action, idx) => {
                     const IconComponent = action.icon;

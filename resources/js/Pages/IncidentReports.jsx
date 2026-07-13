@@ -22,7 +22,7 @@ export default function IncidentReports() {
                 {/* Top Section with Title and CTA button */}
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
                     <div>
-                        <h1 className="text-2xl font-bold text-[#1B385D] mb-1">Incident Reporting</h1>
+                        <h1 className="text-2xl font-semibold text-[#1B385D] mb-1">Incident Reporting</h1>
                         <p className="text-gray-500 text-xs sm:text-sm max-w-2xl leading-relaxed">
                             Help us maintain a safe and clean community. Report issues directly to the barangay office and track their resolution in real-time.
                         </p>

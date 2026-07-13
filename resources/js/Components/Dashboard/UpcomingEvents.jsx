@@ -8,7 +8,7 @@ export default function UpcomingEvents() {
     return (
         <div className="bg-white border border-gray-200 p-6 shadow-sm space-y-4">
             <div className="flex justify-between items-center">
-                <h2 className="text-lg font-bold text-gray-900">Upcoming Events</h2>
+                <h2 className="text-lg font-semibold text-[#1B385D] ">Upcoming Events</h2>
                 <span className="text-gray-400">&#128197;</span>
             </div>
             <div className="space-y-3">
@@ -19,7 +19,7 @@ export default function UpcomingEvents() {
                             <p className="text-xs font-black">{event.date.split(' ')[1]}</p>
                         </div>
                         <div>
-                            <p className="text-xs font-bold text-gray-900">{event.title}</p>
+                            <p className="text-xs font-semibold text-gray-900">{event.title}</p>
                             <p className="text-[11px] text-gray-500">{event.time}</p>
                         </div>
                     </div>
